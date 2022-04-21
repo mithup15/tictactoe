@@ -80,7 +80,7 @@ public class TicTacToeBoard {
 		while(true) {
 			String str= sc.next(); 
 			TicTacToeBoard object = new TicTacToeBoard(str);  
-			System.out.println(object.evaluate());
+			logger.log(object.evaluate());
 		}
 	}
 	}
