@@ -46,22 +46,28 @@ public class TicTacToeBoard {
 		if(str2.charAt(3)==c &&str2.charAt(4)==c  &&str2.charAt(5)==c) 
 		{
 			return true;
-		}		if(str2.charAt(6)==c &&str2.charAt(7)==c  &&str2.charAt(8)==c) 
+		}		
+		if(str2.charAt(6)==c &&str2.charAt(7)==c  &&str2.charAt(8)==c) 
 		{
 			return true;
-		}		if(str2.charAt(0)==c &&str2.charAt(3)==c  &&str2.charAt(6)==c) 
+		}		
+		if(str2.charAt(0)==c &&str2.charAt(3)==c  &&str2.charAt(6)==c) 
 		{
 			return true;
-		}		if(str2.charAt(1)==c &&str2.charAt(4)==c  &&str2.charAt(7)==c) 
+		}		
+		if(str2.charAt(1)==c &&str2.charAt(4)==c  &&str2.charAt(7)==c) 
 		{
 			return true;
-		}		if(str2.charAt(2)==c &&str2.charAt(6)==c  &&str2.charAt(8)==c) 
+		}		
+		if(str2.charAt(2)==c &&str2.charAt(6)==c  &&str2.charAt(8)==c) 
 		{
 			return true;
-		}		if(str2.charAt(0)==c &&str2.charAt(4)==c  &&str2.charAt(8)==c) 
+		}		
+		if(str2.charAt(0)==c &&str2.charAt(4)==c  &&str2.charAt(8)==c) 
 		{
 			return true;
-		}		if(str2.charAt(2)==c &&str2.charAt(4)==c  &&str2.charAt(6)==c) 
+		}		
+		if(str2.charAt(2)==c &&str2.charAt(4)==c  &&str2.charAt(6)==c) 
 		{
 			return true;
 		}
