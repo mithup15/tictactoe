@@ -28,13 +28,21 @@ public class TicTacToeBoard {
 				 counto++;
 	   }
 	     if(Math.abs(countx-counto)>1) 
+	     {
 		  return Evaluation.UNREACHABLESTATE;
 	     if(check(str,'x'))
+	     {
 	    	 return Evaluation.XWINS;
+	     }
 	     else if(check(str,'o'))
+	     {
 	    	 return Evaluation.OWINS;
+	     }
 	     else
+	     {
 	    	 return Evaluation.NOWINNER;
+	     }
+	     }
 	     
 	}
 	  
@@ -80,7 +88,7 @@ public class TicTacToeBoard {
 		while(true) {
 			String str= sc.next(); 
 			TicTacToeBoard object = new TicTacToeBoard(str);  
-			logger.log(object.evaluate());
+			System.out.println(object.evaluate());
 		}
 	}
 	}
